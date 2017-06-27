@@ -27,7 +27,7 @@ walk('./', {
   action(name);
 });
 
-watch('./', {
+watch('./src/components', {
   recursive: true,
   filter:  FILTER
 }, function (evt, name) {
